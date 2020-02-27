@@ -1,0 +1,28 @@
+$colorprimario: #111;
+
+footer .lo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 90px;
+  }
+  
+  footer p {
+    font-size: 20px;
+  }
+  
+  footer a {
+    padding: 10px 10px;
+    color: $colorprimario;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    footer .lo  {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+
